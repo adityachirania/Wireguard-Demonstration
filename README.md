@@ -1,7 +1,8 @@
 # Wireguard Demonstration
 A repository containing setup files for the demonstration of usage of wireguard with namespaces. 
 
-***Important Note:The setup.sh files in each Experiment's folders may not complete the entire setup to run simulations. One would need to follow along with the presentation to know the extra commands necessary to complete the experimental setup. Also if one wishes to directly create the entire setup with a single bash script to directly start with the experiments, please run the bash scripts inside the full_setup folders present inside each experiment's folder instead.***
+***Important Note:The setup.sh files in each Experiment's folders may not complete the entire setup to run simulations. One would need to follow along with the presentation to know the extra commands necessary to complete the experimental setup. Also if one wishes to directly create the entire setup with a single bash script to directly start with the experiments, please run the bash scripts inside the full_setup folders present inside each experiment's folder instead.
+Also if you wish to confirgure the wireguard interfaces yourself in Experiment2 and Experiment3, please comment out the latter section (the section that confgures the wireguard interfaces is clearly indicated in the script) in their respective bash setup.sh files.***
 
 ## Experiment 1
 
