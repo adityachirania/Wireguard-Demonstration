@@ -5,15 +5,39 @@ A repository containing setup files for the demonstration of usage of wireguard 
 
 ## Experiment 1
 
-It is about create a direct node to node topology.It only creates the initial topology. One may follow the demonstration video or the presentation to follow with the steps to create and configure the wireguard interfaces. 
+It is about create a direct node to node topology.It only creates the initial topology. One may follow the demonstration video or the presentation to follow with the steps to create and configure the wireguard interfaces.
+-  setup1.sh - This file will create the topology for you and one may continue configuring wireguard interfaces following the presentation parallely. 
+-  clean_setup1.sh - This will delete all namespaces created to perform the simulation. 
+-  full_setup1
+    - full_setup1.sh - This will directly create all namespaces and configure all the wireguard interfaces.
+    - keys/ - This has the key pairs that the wireguard interfaces will use
+    - clean_setup1.sh - This will delete all namespaces created to perform the simulation. 
 
 ## Experiment 2
 
 This is a setup with a relay/bouncing server and 2 VPN clients.  One may follow the demonstration to see observations one can make using tcpdump, traceroute and ping post running this script. 
 
+-  setup2.sh - This file will create the topology for you and one may continue configuring wireguard interfaces following the presentation parallely. 
+-  clean_setup2.sh - This will delete all namespaces created to perform the simulation. 
+-  keys/ - This has the key pairs that the wireguard interfaces will use.
+-  full_setup2/ 
+    - full_setup2.sh - This will directly create all namespaces and configure all the wireguard interfaces.
+    - keys/ - This has the key pairs that the wireguard interfaces will use.
+    - clean_setup1.sh - This will delete all namespaces created to perform the simulation. 
+
+
 ## Experiment 3
 
 This is a setup with a VPN server, a VPN client, and a node outside the VPN network. This toplogy shows the namespace integration with wireguard to avoid classical routing table hacks. It also shows how wireguard can be used to access resources on a network outside the VPN securely. One may follow the demonstration to see observations one can make using tcpdump, traceroute and ping post running this script. 
+
+-  setup3.sh - This file will create the topology for you and one may continue configuring wireguard interfaces following the presentation parallely. 
+-  clean_setup3.sh - This will delete all namespaces created to perform the simulation. 
+-  keys/ - This has the key pairs that the wireguard interfaces will use.
+-  full_setup3/ 
+    - full_setup3.sh - This will directly create all namespaces and configure all the wireguard interfaces.
+    - keys/ - This has the key pairs that the wireguard interfaces will use.
+    - clean_setup1.sh - This will delete all namespaces created to perform the simulation. 
+
 
 
 
